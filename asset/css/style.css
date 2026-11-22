@@ -504,7 +504,8 @@ textarea.form-control {
 .section-blue .kicker {
   color: #f3c640;
 }
-/* Subtle motion to guide attention through the page. */
+/* Subtle motion to guide attention through the page. */
+
 .feature-card, .program-card, .story-note, .article, .photo-card, .founder-panel {
   transition: transform .28s ease, box-shadow .28s ease;
 }
@@ -552,7 +553,8 @@ html.motion-enabled .motion-reveal.is-visible {
     transform: none;
   }
 }
-/* A more expressive visual system and purposeful motion. */
+/* A more expressive visual system and purposeful motion. */
+
 :root {
   --navy: #082f69;
   --navy-dark: #052653;
@@ -1122,7 +1124,8 @@ html.motion-enabled .motion-reveal.is-visible {
 .founder-photo {
   object-position: center;
 }
-/* Client contact strip */
+/* Client contact strip */
+
 .site-topbar {
   padding: .48rem 0;
   color: #fff;
@@ -1145,5 +1148,13 @@ html.motion-enabled .motion-reveal.is-visible {
 @media (max-width: 575.98px) {
   .site-topbar {
     font-size: .72rem;
+  }
+}
+
+
+@media (max-width: 575.98px) {
+  .container,
+  .container-fluid {
+    --bs-gutter-x: 2rem;
   }
 }
